@@ -5,7 +5,7 @@
 **Senior Software Engineer**\
 [Lockheed Martin Skunk Works](https://www.lockheedmartin.com/en-us/who-we-are/business-areas/aeronautics/skunkworks.html)
 
-**PhD Studen**t\
+**PhD Student**\
 [School of Computer Science](https://scs.gatech.edu/)\
 Advised by [Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/)\
 [Georgia Institute of Technology](https://www.cc.gatech.edu/)
