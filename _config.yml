@@ -18,7 +18,7 @@ show_excerpts: true
 header_pages:
   - cv.md
 
-theme: jeykll/minima
+theme: minima
 
 plugins:
  - jekyll-feed
