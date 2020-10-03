@@ -1,6 +1,7 @@
 ## Tyler Landle
 
-### Research Experience
+Research Experience
+-------------------
 
 #### Doctoral Researcher | May 2020 - Present
 
@@ -15,9 +16,10 @@ Embedded Pervasive Lab
 
 - Edge computing, specifically on control and data plane optimization for edge infrastructure.
 
-### Work Experience
+Work Experience
+---------------
 
-#### Senior Software Engineer | Lockheed Martin |June 2020 - Present
+#### Senior Software Engineer | Lockheed Martin | June 2020 - Present
 
 Advanced Development Programs
 
@@ -76,7 +78,8 @@ Power Sequencer, TPM, PMU(Power Management Unit).
 - Analyzed subsystem level requirements for new real time clock algorithm
 - Compared different software in the loop alternatives for next generation simulation testing
 
-### Education
+Education
+---------
 
 2020-2025 (expected)
 :   **PhD, Computer Science**; Georgia Institute of Technology
@@ -89,6 +92,8 @@ Power Sequencer, TPM, PMU(Power Management Unit).
 
 
 ### Awards and Honors
+
+
 
 ### Publications
 
