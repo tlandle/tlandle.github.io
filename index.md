@@ -1,4 +1,5 @@
-![Tyler Landle](./professional_pic.jpeg) ## Tyler Landle
+![Tyler Landle](./professional_pic.jpeg) 
+## Tyler Landle
 
 ### About Me
 
