@@ -1,7 +1,3 @@
-# CV
-
-## Tyler Landle
-
 Research Experience
 -------------------
 
