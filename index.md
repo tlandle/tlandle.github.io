@@ -1,3 +1,5 @@
+[About Me](#about-me)       [CV](./cv.md)
+
 ![Tyler Landle](./professional_pic.jpeg) 
 ## Tyler Landle
 
