@@ -6,9 +6,10 @@ author:
 relative_links:
   enabled: true
   collections: true
-social_links:
-  linkedin: (https://www.linkedin.com/in/tyler-landle/)
-  github: tlandle
+minima:
+  social_links:
+    linkedin: tyler-landle
+    github: tlandle
 
-theme: jekyll-theme-slate
+theme: minima
 
