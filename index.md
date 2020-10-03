@@ -1,4 +1,4 @@
-## Tyler Landle
+[Tyler Landle](./professional_picture.jpeg) ## Tyler Landle
 
 ### About Me
 
