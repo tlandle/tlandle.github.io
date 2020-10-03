@@ -1,18 +1,25 @@
 title: Tyler Landle
-locale: en_US
-header_pages:
-  - cv.md
-
 author:
   name: Tyler Landle
-  email: tlandle3@gatech.edu
+  email: "tlandle3@gatech.edu"
+locale: en_US
+
+
 relative_links:
   enabled: true
   collections: true
+
 minima:
   social_links:
     linkedin: tyler-landle
     github: tlandle
+    
+header_pages:
+  - cv.md
 
 theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
 
