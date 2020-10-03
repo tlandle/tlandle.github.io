@@ -1,11 +1,12 @@
-title: Academic Website of Tyler Landle
+title: Tyler Landle
 locale: en_US
+author:
+  name: Tyler Landle
+  email: tlandle3@gatech.edu
 relative_links:
   enabled: true
   collections: true
-owner:
-  name: Tyler Landle
-  email: tlandle3@gatech.edu
+social_links:
   linkedin: (https://www.linkedin.com/in/tyler-landle/)
   github: tlandle
 
