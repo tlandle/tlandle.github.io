@@ -1,7 +1,11 @@
-theme: jekyll-theme-slate
+relative_links:
+  enabled: true
+  collections: true
 owner:
   name: Tyler Landle
   email: tlandle3@gatech.edu
-  # Do not include the @ symbol in your Twitter username
   linkedin: (https://www.linkedin.com/in/tyler-landle/)
   github: tlandle
+
+theme: jekyll-theme-slate
+
