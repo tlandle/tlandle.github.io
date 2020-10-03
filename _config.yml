@@ -1,18 +1,20 @@
 title: Tyler Landle
-author:
-  name: Tyler Landle
-  email: "tlandle3@gatech.edu"
+author: Tyler Landle 
+email: "tlandle3@gatech.edu"
 
 
 relative_links:
   enabled: true
   collections: true
 
-minima:
-  social_links:
-    linkedin: tyler-landle
-    github: tlandle
+#minima:
+  #social_links:
+    #linkedin: tyler-landle
+    #github: tlandle
     
+linkedin_username: tyler-landle
+github_username: tlandle
+
 show_excerpts: true
     
 header_pages:
