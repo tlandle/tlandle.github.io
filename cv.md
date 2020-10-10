@@ -7,8 +7,8 @@ Research Experience
 
 Embedded Pervasive Lab
 
-- Edge computing, specifically on control and data plane optimization for edge infrastructure.
-- RNetwork centric programming data plane optimizations
+- Edge computing, specifically on control and data plane optimization for edge infrastructure with [Dr. Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/).
+- Network centric programming data plane optimizations with [Dr. Alexandros Daglis](https://www.cc.gatech.edu/~adaglis3/).
 
 #### Graduate Research Assistant | August 2018 - May 2020
 
@@ -93,6 +93,8 @@ Education
 
 ### Awards and Honors
 
+- Marshall P. Williamson Fellowship
+- President's Fellow
 
 
 ### Publications
