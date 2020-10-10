@@ -19,6 +19,7 @@ show_excerpts: true
     
 header_pages:
   - cv.md
+  - papers_and_talks.md
 
 theme: minima
 
