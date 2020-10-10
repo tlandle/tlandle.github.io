@@ -16,11 +16,11 @@ My research interests lie in in Edge Computing, specifically in data and control
 
 ### Edge Computing
 
-There are many applications now that would be feasible only if we were able to a make a system for the edge that could handle the low latency requirements of these use cases, while also being able to maintain good throughput and performance. My research in this area strives to elevate the Edge to be a peer of the Cloud. 
+There are many applications now that would be feasible only if we were able to a make a system for the edge that could handle the low latency requirements of these use cases, while also being able to maintain good throughput and performance. My research in this area strives to elevate the Edge to be a peer of the Cloud. I work in this research area advised by [Dr. Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/).
 
 ### Network Centric Systems
 
-Due to the impressive improvement in network capacity in comparison to compute capacity in recent years, I look to research in the area of modern network centric computing, and how this changes systems architecture and software. 
+Due to the impressive improvement in network capacity in comparison to compute capacity in recent years, I look to research in the area of modern network centric computing, and how this changes systems architecture and software. I work on this research area with [Dr. Alexandros Daglis](https://www.cc.gatech.edu/~adaglis3/).
 
 ### Embedded Systems
 
@@ -32,9 +32,9 @@ Attempting to put the above research areas together is difficult. I have an inte
 
 ## Accomplishments
 
-### Publications
+### Papers and Talks
 
-Coming soon...
+### [Papers and Talks](./papers_and_talks.md)
 
 ### Fellowships
 
