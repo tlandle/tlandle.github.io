@@ -23,10 +23,12 @@ Work Experience
 
 Advanced Development Programs
 
-- Lead C/C++ vehicle control software development on embedded linux and baremetal platforms
-- Designed distributed/edge systems software in C/C++ for systems using combinations of wired and wireless protocols and communication standards
-- Developed YoctoLinux and baremetal software for Zynq Ultrascale+ MPSoC, ARM64 architecture system
-- YoctoLinux toolchain/SDK development for both Windows and Linux development systems.
+- Technical lead for development, design, and implementation for communications software.
+- Senior developer for communications and interfacing software for various hardware platforms supporting communications via wired and wireless communication protocols and communication standards using C/C++ and Python.
+- Lead developer and functional owner for embedded linux distribution built with YoctoLinux to run CUDA/Deepstream object detection pipeline and supporting software on Tegra Xavier SoC.
+- Lead developer and functional owner for simulation infrastructure to generate synthetic, auto labeled data for AI/ML object detection pipelines using MetaVR and AFSIM used to train deep learning models.
+- Responsible for YoctoLinux toolchain/SDK infrastructure supporting both Windows(mingw32) and Linux(gcc) development toolchains to develop applications for embedded linux and baremetal platforms.
+- Developed C/C++ vehicle control software for embedded linux and baremetal platforms for Xilinx  Zynq Ultrascale+ MPSoC, Tegra Xavier SoC, and x86_64 based systems.
 
 #### Lead Embedded Software Engineer | Georgia Tech Research Institute | August 2019 - June 2020
 
@@ -78,6 +80,23 @@ Power Sequencer, TPM, PMU(Power Management Unit).
 - Analyzed subsystem level requirements for new real time clock algorithm
 - Compared different software in the loop alternatives for next generation simulation testing
 
+Teaching Experience
+-------------------
+
+#### Graduate Teaching Assistant | August 2021 - Present
+
+CS-8803 SDC (Systems Design In Cloud Computing) under Dr. Umakishore Ramachandran
+Terms: Fall 2021 to Present
+I am a teaching assistant for [Systems Design in Cloud Computing](https://www.cc.gatech.edu/~rama/CS4803-8803-External/) a class that covers 4 main topics:
+
+
+1.     Software Defined Networks (SDN)
+2.     Cloud System Software
+3.     Network Function Virtualization
+4.     Cloud Applications
+
+Specifically, I am fully responsible for the Cloud System Software Module. 
+
 Education
 ---------
 
@@ -99,3 +118,4 @@ Education
 
 ### Publications
 
+1. Harshit Gupta, Tyler Landle, and Umakishore Ramachandran, [**ePulsar: Control Plane for Publish-Subscribe Systems on Geo-Distributed Edge Infrastructure**](https://www.cc.gatech.edu/grads/h/hgupta40/publication_resources/papers/epulsar.pdf), *The Sixth ACM/IEEE Symposium on Edge Computing*, San Jose, CA, December 14-17, 2021 
