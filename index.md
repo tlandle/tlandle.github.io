@@ -2,7 +2,7 @@
 
 ## About Me
 
-**Senior Software Engineer**\
+**Senior Software Engineer, Cloud OS**\
 [Intel Corporation](https://www.intc.com/segments)
 
 **PhD Student**\
