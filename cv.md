@@ -19,7 +19,15 @@ Embedded Pervasive Lab
 Work Experience
 ---------------
 
-#### Senior Software Engineer | Lockheed Martin | June 2020 - Present
+#### Senior Software Engineer | Intel Corporation | June 2022 - Present
+
+ - Windows OS/VMM Internals
+ - Hardware/Software Virtualization on x86
+ - Windows Device Drivers (WDF/WDM)
+ - Windows User and Kernel Debugging
+ - Computer Architecture
+
+#### Senior Software Engineer | Lockheed Martin | June 2020 - June 2022
 
 Advanced Development Programs
 
