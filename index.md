@@ -3,7 +3,7 @@
 ## About Me
 
 **Senior Software Engineer**\
-[Lockheed Martin Skunk Works](https://www.lockheedmartin.com/en-us/who-we-are/business-areas/aeronautics/skunkworks.html)
+[Intel Corporation](https://www.intc.com/segments)
 
 **PhD Student**\
 [School of Computer Science](https://scs.gatech.edu/)\
