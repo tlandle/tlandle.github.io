@@ -1,4 +1,4 @@
-![Tyler Landle](./1.png =250x) 
+<img src="./1.png" width="200" />
 
 ## About Me
 
