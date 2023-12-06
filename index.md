@@ -1,4 +1,4 @@
-![Tyler Landle](./1.png) 
+![Tyler Landle](./1.png =250x) 
 
 ## About Me
 
