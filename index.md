@@ -1,4 +1,4 @@
-![Tyler Landle](./professional_pic.jpeg) 
+![Tyler Landle](./1.png) 
 
 ## About Me
 
@@ -7,12 +7,13 @@
 
 **PhD Student**\
 [School of Computer Science](https://scs.gatech.edu/)\
+[Embedded Pervasive Lab](https://epl.gatech.edu/)\
 Advised by [Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/)\
 [Georgia Institute of Technology](https://www.cc.gatech.edu/)
 
 ## Research Interests
 
-My research interests lie in in Edge Computing, specifically in data and control plane optimization to enhance the performance of Edge Computing applications in a geo-distributed setting.
+My research interests reside within the burgeoning field of Edge Computing, particularly in data and control plane optimization strategies aimed at bolstering the performance of Edge Computing applications in geographically distributed environments. My current research endeavors delve into leveraging the edge for augmenting the capabilities of autonomous driving systems in the domains of collaborative maneuvering and collaborative perception. A significant portion of my research focuses on the development of accurate simulations and emulations for collaborative autonomous vehicles (CAVs). This work seeks to provide a robust platform for evaluating and optimizing CAV decision-making and performance in diverse scenarios, ultimately contributing to the advancement of safe and efficient autonomous driving technologies.
 
 ### Edge Computing
 
