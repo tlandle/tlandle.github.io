@@ -27,7 +27,7 @@ First, I focus on establishing foundational reliability by identifying and mitig
 
 #### **Engineering for Scalability**
 
-Second, with a reliable foundation established, my work addresses the challenge of computational scalability. As we move from sparse scenarios to dense, dynamic environments, the finite compute resources of the edge node itself become the primary bottleneck. My research here explores the design of adaptive edge services that are acutely aware of their own resource constraints. By pioneering mechanisms for graceful degradation—such as dynamically managing input load, adjusting processing fidelity, and prioritizing safety-critical tasks—the system can make intelligent, real-time trade-offs. This ensures that core safety and performance guarantees are maintained even when operating under heavy computational pressure.
+Second, with a reliable foundation established, my work addresses the challenge of computational scalability. As we move from sparse scenarios to dense, dynamic environments, the finite compute resources of the edge node itself become the primary bottleneck. My research here explores the design of adaptive edge services that are aware of their own resource constraints. By utilizing mechanisms for graceful degradation—such as dynamically managing input load, adjusting processing fidelity, and prioritizing safety-critical tasks, the system can make intelligent, real-time trade-offs. This ensures that core safety and performance guarantees are maintained even when operating under heavy computational pressure.
 
 ## CV
 
