@@ -6,6 +6,7 @@ title: About Me
 <img src="./1.png" width="200" />
 
 **Senior Staff Software Engineer** | [Intel Corporation](https://www.intc.com/segments)
+
 **PhD Student**\
 [School of Computer Science](https://scs.gatech.edu/)\
 [Embedded Pervasive Lab](https://epl.gatech.edu/)\
