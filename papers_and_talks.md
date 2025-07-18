@@ -1,5 +1,10 @@
-# Publications and Talks
+---
+layout: page
+title: Publications & Talks
+---
 
-## Papers
+### Papers
 
-1. Harshit Gupta, Tyler Landle, and Umakishore Ramachandran, [**ePulsar: Control Plane for Publish-Subscribe Systems on Geo-Distributed Edge Infrastructure**](https://www.cc.gatech.edu/grads/h/hgupta40/publication_resources/papers/epulsar.pdf), *The Sixth ACM/IEEE Symposium on Edge Computing*, San Jose, CA, December 14-17, 2021 
+* **Tyler Landle**, Jordan Rapp, Dean Blank, Chandramouli Amarnath, Abhijit Chatterjee, Alexandros Daglis, and Umakishore Ramachandran, "eCAV: An Edge-Assisted Evaluation Platform for Connected Autonomous Vehicles", *arXiv preprint arXiv:2506.16535*, June 2025.
+
+* Harshit Gupta, **Tyler Landle**, and Umakishore Ramachandran, "ePulsar: Control Plane for Publish-Subscribe Systems on Geo-Distributed Edge Infrastructure", *The Sixth ACM/IEEE Symposium on Edge Computing (SEC)*, San Jose, CA, December 14-17, 2021.
