@@ -8,11 +8,12 @@ relative_links:
   enabled: true
   collections: true
 
-#minima:
-  #social_links:
-    #linkedin: tyler-landle
-    #github: tlandle
-    
+
+minima:
+  social_links:
+    github: tlandle
+    linkedin: tyler-landle
+
 linkedin_username: tyler-landle
 github_username: tlandle
 
