@@ -1,8 +1,9 @@
-<img src="./1.png" width="200" />
 ---
-layout: page
+layout: home
 title: About Me
 ---
+
+<img src="./1.png" width="200" />
 
 **Senior Staff Software Engineer** | [Intel Corporation](https://www.intc.com/segments)
 **PhD Student**\
