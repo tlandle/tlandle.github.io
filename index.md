@@ -10,24 +10,22 @@ title: About Me
 **PhD Student**\
 [School of Computer Science](https://scs.gatech.edu/)\
 [Embedded Pervasive Lab](https://epl.gatech.edu/)\
-Advised by [Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/)\
+Advised by [Professor Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/)\
 [Georgia Institute of Technology](https://www.cc.gatech.edu/)
 
-Advised by [Professor Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/)
+### **Research Direction**
 
-### **Research Direction** 
+My research builds edge-hosted cooperative intelligence for connected autonomous vehicles. Vehicles and roadside units share what they observe; an edge server fuses those observations into one shared world model per road locale, tracks the actors in it, predicts their trajectories, and returns the result to every vehicle planner. The systems question at the center of my work: shared state is only useful if it reaches the planner while it is still fresh, still correct, and still affordable on edge hardware. My dissertation develops this stack along five directions.
 
-My research is centered on the systems-level challenges of building safe, reliable, and scalable edge computing platforms for real-time autonomous applications, with a primary focus on connected autonomous vehicles. My approach is grounded in the philosophy that before such systems can be deployed in the complex and dynamic real world, we must first solve for foundational correctness and then explicitly engineer for scalability.
+**A platform to measure it.** [eCAV](https://arxiv.org/abs/2506.16535) is a distributed simulation platform that couples CARLA, containerized per-vehicle actors, a real edge inference service on real GPU hardware, and an ns-3 cellular radio plane under one deterministic clock, so wall-clock compute and network behavior are measured, not modeled.
 
-My research strategy, therefore, proceeds in two main thrusts.
+**Correctness under latency.** When multiple sources report the same physical object at different delays, naive merging produces duplicates and identity swaps. I design freshness and provenance contracts for edge-merged state that separate failures caused by stale physics from failures caused by broken identity logic, and measure both in closed-loop driving.
 
-#### **Foundational Reliability**
+**Scaling up under one GPU.** Fusing every available vehicle overruns the latency budget as participation grows. Conductor (ACM/IEEE SEC 2026) selects the vehicles that add evidence beyond the roadside unit's view and adapts prediction work each cycle, keeping the shared world model inside its freshness bound across traffic density.
 
-First, I focus on establishing foundational reliability by identifying and mitigating failure modes that arise from the interaction between distributed components. This involves moving beyond viewing factors like network latency as performance bottlenecks and instead treating them as potential sources of critical state-consistency errors that can compromise application correctness. The goal here is to design and validate lightweight, protocol-level solutions that guarantee a consistent and trustworthy worldview, providing a stable base layer upon which more complex logic can be built.
+**Scaling out across locales.** Vehicles cross locale boundaries, and the learned tracker state that describes them exists only at the source edge. I am building predictive migration of that state, using the stack's own trajectory predictions to move it ahead of the vehicle.
 
-#### **Engineering for Scalability**
-
-Second, with a reliable foundation established, my work addresses the challenge of computational scalability. As we move from sparse scenarios to dense, dynamic environments, the finite compute resources of the edge node itself become the primary bottleneck. My research here explores the design of adaptive edge services that are aware of their own resource constraints. By utilizing mechanisms for graceful degradation—such as dynamically managing input load, adjusting processing fidelity, and prioritizing safety-critical tasks, the system can make intelligent, real-time trade-offs. This ensures that core safety and performance guarantees are maintained even when operating under heavy computational pressure.
+**Feeding the stack.** Contributor uplinks and direct vehicle-to-vehicle links differ in capacity and latency; planned work schedules which vehicle sends over which link to maximize prediction quality per transmitted byte.
 
 ## CV
 
