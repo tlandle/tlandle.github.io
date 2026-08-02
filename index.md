@@ -15,18 +15,18 @@ Advised by [Professor Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/)
 
 ### Research
 
-My research builds edge-hosted cooperative intelligence for connected autonomous vehicles: vehicles and roadside units share what they observe, and an edge server fuses those observations into one shared world model per road locale, tracks the actors in it, predicts their trajectories, and returns the result to every vehicle planner. Shared state is useful only if it reaches the planner while it is still fresh, still correct, and still affordable on edge hardware. My work treats those three constraints as the core systems problems.
+I work on edge computing systems for connected autonomous vehicles. Vehicles and roadside units share observations. An edge server fuses them into one world model per road region, tracks the actors in it, predicts their trajectories, and returns the result to each vehicle planner. The shared state must reach the planner while it is still fresh, still correct, and within the compute budget of edge hardware. My research addresses these three constraints.
 
-* **[eCAV](https://arxiv.org/abs/2506.16535)** — a distributed simulation platform that measures real edge compute and simulated radio behavior inside one deterministic closed driving loop.
-* **[Conductor](https://tlandle.github.io/conductor/)** *(ACM/IEEE SEC 2026)* — a deadline-aware edge service that keeps the shared world model fresh as vehicle participation grows, by selecting which vehicles contribute and how much prediction runs each cycle.
-* **Correctness under latency** — freshness and provenance contracts that keep edge-merged state consistent when many sources report the same objects at different delays.
-* **Service continuity across locales** — predictive migration of learned tracker state as vehicles move between edge servers.
-* **Communication scheduling** — choosing which vehicle sends over which link to maximize prediction quality per transmitted byte.
+* [eCAV](https://arxiv.org/abs/2506.16535) is a distributed simulation platform. It measures real edge compute and simulated radio behavior in one deterministic closed driving loop.
+* [Conductor](https://tlandle.github.io/conductor/) (ACM/IEEE SEC 2026) is a deadline-aware edge service. It selects which vehicles contribute to fusion and how much prediction runs on each cycle, keeping the world model fresh as participation grows.
+* Correctness under latency. I design contracts that keep merged state consistent when several sources report the same objects at different delays.
+* Service continuity. Learned tracker state migrates ahead of a vehicle as it moves between edge servers.
+* Communication scheduling. Each vehicle sends over the link that adds the most prediction quality per transmitted byte.
 
 ### News
 
-* **2026** — Conductor accepted at the ACM/IEEE Symposium on Edge Computing (SEC). [Project page](https://tlandle.github.io/conductor/).
-* **2025** — eCAV, our edge-assisted evaluation platform for connected autonomous vehicles, is on [arXiv](https://arxiv.org/abs/2506.16535).
+* 2026. Conductor was accepted at the ACM/IEEE Symposium on Edge Computing (SEC). [Project page](https://tlandle.github.io/conductor/).
+* 2025. eCAV is on [arXiv](https://arxiv.org/abs/2506.16535).
 
 ### More
 
