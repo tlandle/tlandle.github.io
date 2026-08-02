@@ -13,26 +13,21 @@ title: About Me
 Advised by [Professor Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/)\
 [Georgia Institute of Technology](https://www.cc.gatech.edu/)
 
-### **Research Direction**
+### Research
 
-My research builds edge-hosted cooperative intelligence for connected autonomous vehicles. Vehicles and roadside units share what they observe; an edge server fuses those observations into one shared world model per road locale, tracks the actors in it, predicts their trajectories, and returns the result to every vehicle planner. The systems question at the center of my work: shared state is only useful if it reaches the planner while it is still fresh, still correct, and still affordable on edge hardware. My research develops this stack along five directions.
+My research builds edge-hosted cooperative intelligence for connected autonomous vehicles: vehicles and roadside units share what they observe, and an edge server fuses those observations into one shared world model per road locale, tracks the actors in it, predicts their trajectories, and returns the result to every vehicle planner. Shared state is useful only if it reaches the planner while it is still fresh, still correct, and still affordable on edge hardware. My work treats those three constraints as the core systems problems.
 
-**A platform to measure it.** [eCAV](https://arxiv.org/abs/2506.16535) is a distributed simulation platform that couples CARLA, containerized per-vehicle actors, a real edge inference service on real GPU hardware, and an ns-3 cellular radio plane under one deterministic clock, so wall-clock compute and network behavior are measured, not modeled.
+* **[eCAV](https://arxiv.org/abs/2506.16535)** — a distributed simulation platform that measures real edge compute and simulated radio behavior inside one deterministic closed driving loop.
+* **[Conductor](https://tlandle.github.io/conductor/)** *(ACM/IEEE SEC 2026)* — a deadline-aware edge service that keeps the shared world model fresh as vehicle participation grows, by selecting which vehicles contribute and how much prediction runs each cycle.
+* **Correctness under latency** — freshness and provenance contracts that keep edge-merged state consistent when many sources report the same objects at different delays.
+* **Service continuity across locales** — predictive migration of learned tracker state as vehicles move between edge servers.
+* **Communication scheduling** — choosing which vehicle sends over which link to maximize prediction quality per transmitted byte.
 
-**Correctness under latency.** When multiple sources report the same physical object at different delays, naive merging produces duplicates and identity swaps. I design freshness and provenance contracts for edge-merged state that separate failures caused by stale physics from failures caused by broken identity logic, and measure both in closed-loop driving.
+### News
 
-**Scaling up under one GPU.** Fusing every available vehicle overruns the latency budget as participation grows. Conductor (ACM/IEEE SEC 2026) selects the vehicles that add evidence beyond the roadside unit's view and adapts prediction work each cycle, keeping the shared world model inside its freshness bound across traffic density.
+* **2026** — Conductor accepted at the ACM/IEEE Symposium on Edge Computing (SEC). [Project page](https://tlandle.github.io/conductor/).
+* **2025** — eCAV, our edge-assisted evaluation platform for connected autonomous vehicles, is on [arXiv](https://arxiv.org/abs/2506.16535).
 
-**Scaling out across locales.** Vehicles cross locale boundaries, and the learned tracker state that describes them exists only at the source edge. I am building predictive migration of that state, using the stack's own trajectory predictions to move it ahead of the vehicle.
+### More
 
-**Feeding the stack.** Contributor uplinks and direct vehicle-to-vehicle links differ in capacity and latency; planned work schedules which vehicle sends over which link to maximize prediction quality per transmitted byte.
-
-## CV
-
-### [CV](./cv.md)
-
-## Accomplishments
-
-### Papers and Talks
-
-### [Papers and Talks](./papers_and_talks.md)
+[Curriculum Vitae](./cv.md) · [Publications & Talks](./papers_and_talks.md)
