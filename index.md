@@ -15,7 +15,7 @@ Advised by [Professor Umakishore Ramachandran](https://www.cc.gatech.edu/~rama/)
 
 ### **Research Direction**
 
-My research builds edge-hosted cooperative intelligence for connected autonomous vehicles. Vehicles and roadside units share what they observe; an edge server fuses those observations into one shared world model per road locale, tracks the actors in it, predicts their trajectories, and returns the result to every vehicle planner. The systems question at the center of my work: shared state is only useful if it reaches the planner while it is still fresh, still correct, and still affordable on edge hardware. My dissertation develops this stack along five directions.
+My research builds edge-hosted cooperative intelligence for connected autonomous vehicles. Vehicles and roadside units share what they observe; an edge server fuses those observations into one shared world model per road locale, tracks the actors in it, predicts their trajectories, and returns the result to every vehicle planner. The systems question at the center of my work: shared state is only useful if it reaches the planner while it is still fresh, still correct, and still affordable on edge hardware. My research develops this stack along five directions.
 
 **A platform to measure it.** [eCAV](https://arxiv.org/abs/2506.16535) is a distributed simulation platform that couples CARLA, containerized per-vehicle actors, a real edge inference service on real GPU hardware, and an ns-3 cellular radio plane under one deterministic clock, so wall-clock compute and network behavior are measured, not modeled.
 
